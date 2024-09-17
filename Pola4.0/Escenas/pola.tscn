@@ -360,6 +360,11 @@ shape = SubResource("RectangleShape2D_3hfxc")
 debug_color = Color(0, 0.6, 0.701961, 0.419608)
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+limit_left = 0
+limit_top = 0
+limit_right = 1150
+limit_bottom = 643
 
 [node name="Area2D" type="Area2D" parent="."]
 
